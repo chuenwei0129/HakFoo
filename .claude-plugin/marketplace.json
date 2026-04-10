@@ -1,0 +1,22 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "HakFoo",
+  "description": "Personal skill collection for Claude Code.",
+  "owner": {
+    "name": "chuenwei0129",
+    "email": "chuenwei0129@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "plain",
+      "description": "Explain any complex content to a clever 12-year-old.",
+      "version": "0.0.1",
+      "category": "development",
+      "source": "./skills/plain",
+      "skills": [
+        "."
+      ],
+      "homepage": "https://github.com/chuenwei0129/HakFoo"
+    }
+  ]
+}
