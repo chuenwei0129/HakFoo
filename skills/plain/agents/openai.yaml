@@ -1,0 +1,7 @@
+interface:
+  display_name: "Plain"
+  short_description: "把复杂内容讲成真正听得懂的人话"
+  default_prompt: "Use $plain to explain this topic in everyday Chinese for a smart 12-year-old."
+
+policy:
+  allow_implicit_invocation: true

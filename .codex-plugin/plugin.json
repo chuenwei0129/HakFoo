@@ -1,0 +1,37 @@
+{
+  "name": "hakfoo",
+  "version": "0.0.1",
+  "description": "Personal reusable skills for Claude Code and Codex.",
+  "author": {
+    "name": "chuenwei0129",
+    "email": "chuenwei0129@gmail.com",
+    "url": "https://github.com/chuenwei0129"
+  },
+  "homepage": "https://github.com/chuenwei0129/HakFoo",
+  "repository": "https://github.com/chuenwei0129/HakFoo",
+  "keywords": [
+    "skills",
+    "codex",
+    "claude-code",
+    "writing"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "HakFoo",
+    "shortDescription": "A personal skill library for reusable workflows.",
+    "longDescription": "HakFoo packages named, reusable ways of working as skills that can be loaded by Codex and Claude Code.",
+    "developerName": "chuenwei0129",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/chuenwei0129/HakFoo",
+    "defaultPrompt": [
+      "Use HakFoo to explain a hard concept in plain Chinese.",
+      "Load the Plain skill and rewrite this paragraph for a 12-year-old.",
+      "Find a reusable skill in HakFoo for this writing task."
+    ],
+    "brandColor": "#2563EB"
+  }
+}
