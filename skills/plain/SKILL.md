@@ -86,8 +86,8 @@ URL → 先获取网页内容 | 文本 → 直接用 | 文件路径 → 先读�
 
 **命名**
 - 时间戳：`date +%Y%m%dT%H%M%S`
-- 文件名：`{时间戳}--plain-{简短标题}__plain.md`
-- 示例：`20260414_143022--plain-神经网络怎么学__plain.md`
+- 文件名：`{时间戳}--{short-title}.md`
+- 示例：`20260414_143022--neural-network-learning.md`
 
 **存放位置**
 - 有 `~/Notes/plain/` 就放这里
