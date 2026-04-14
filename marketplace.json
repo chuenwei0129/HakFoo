@@ -8,9 +8,9 @@
   },
   "plugins": [
     {
-      "name": "plain",
+      "name": "c6i/plain",
       "description": "Explain any complex content to a clever 12-year-old.",
-      "version": "0.0.1",
+      "version": "0.0.2",
       "category": "development",
       "source": "./skills/plain",
       "skills": [
