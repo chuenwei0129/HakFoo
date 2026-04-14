@@ -17,6 +17,17 @@
         "."
       ],
       "homepage": "https://github.com/chuenwei0129/HakFoo"
+    },
+    {
+      "name": "c6i/write",
+      "description": "Help authors refine technical drafts into clear, understandable articles.",
+      "version": "0.0.2",
+      "category": "development",
+      "source": "./skills/write",
+      "skills": [
+        "."
+      ],
+      "homepage": "https://github.com/chuenwei0129/HakFoo"
     }
   ]
 }
