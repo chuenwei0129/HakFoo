@@ -9,8 +9,8 @@
   "plugins": [
     {
       "name": "c6i/explain-well",
-      "description": "把任何复杂内容说给聪明的12岁孩子听。不用术语，不绕弯子，不写文件。用类比、故事、画面让人真懂。",
-      "version": "0.0.2",
+      "description": "用户要求把复杂技术概念翻译成'人话'、'大白话'时使用。用类比、故事、画面让聪明的12岁孩子也能听懂。区别于改文章——这是从零开始解释，不是润色已有草稿。触发词：'解释一下'、'用大白话说'、'什么是XXX'。",
+      "version": "0.0.3",
       "category": "development",
       "source": "./skills/explain-well",
       "skills": [
@@ -20,10 +20,32 @@
     },
     {
       "name": "c6i/tech-polish",
-      "description": "帮作者把技术概念讲解草稿，打磨成逻辑清晰、读者能真正看懂的成品。",
-      "version": "0.0.4",
+      "description": "当用户提供技术文章草稿（源码解析、原理科普、算法讲解），要求'改文章'、'润色'、'看看这段怎么写'时使用。重点定位读者会卡壳、跳步、弃读的具体问题，给出修改方向和对照示例。触发词：'帮我改改'、'润色一下'、'看看草稿'。",
+      "version": "0.0.5",
       "category": "development",
       "source": "./skills/tech-polish",
+      "skills": [
+        "."
+      ],
+      "homepage": "https://github.com/chuenwei0129/HakFoo"
+    },
+    {
+      "name": "c6i/tech-review",
+      "description": "当用户提供技术文章草稿，要求从'读者视角'检验可理解性、严谨性和抗误解能力时使用。模拟不同层次读者（新手/有经验的/挑刺型），找出会被误解、质疑、弃读的地方。重点在'诊断'而非'治疗'——只指出问题，不给改写。触发词：'从读者角度看'、'有什么漏洞'、'会被误解吗'。",
+      "version": "0.0.3",
+      "category": "development",
+      "source": "./skills/tech-review",
+      "skills": [
+        "."
+      ],
+      "homepage": "https://github.com/chuenwei0129/HakFoo"
+    },
+    {
+      "name": "c6i/tech-strategy-diagnostic",
+      "description": "当用户提供技术文章草稿，说出'结构别扭'、'读起来不顺'、'感觉逻辑有问题'、'策略不对'时使用。诊断讲解策略（讲解型/论证型/对比型）是否选对、执行是否走样，给出骨架调整建议而不是句子修改。触发词：'结构有问题'、'逻辑不顺'、'策略需要调整'。",
+      "version": "0.0.3",
+      "category": "development",
+      "source": "./skills/tech-strategy-diagnostic",
       "skills": [
         "."
       ],
