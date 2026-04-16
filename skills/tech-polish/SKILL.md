@@ -1,11 +1,11 @@
 ---
-name: draft-doctor
+name: tech-polish
 description: "帮作者把技术概念讲解草稿，打磨成逻辑清晰、读者能真正看懂的成品。用户说'改文章'、'润色技术文章'、'这段怎么写'、'帮我看看草稿'时使用。"
 metadata:
   version: "0.0.3"
 ---
 
-# draft-doctor：把技术草稿改到完美
+# tech-polish：把技术草稿改到完美
 
 你写完草稿后，我会帮你看哪里读者会卡壳、哪里会误解、哪里会放弃。
 
