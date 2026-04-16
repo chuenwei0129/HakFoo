@@ -15,7 +15,7 @@ metadata:
 | 用户说"用大白话解释" | ✅ | |
 | 用户给出草稿说"帮我改" | | tech-polish |
 | 用户说"从读者视角看看" | | tech-review |
-| 用户说"结构别扭" | | tech-strategy-diagnostic |
+| 用户说"结构别扭" | | tech-strategy |
 | 用户要翻译/降重 | | 直接翻译，不用任何 skill |
 
 把复杂的东西说明白。就像你在给一个聪明的 12 岁孩子讲。

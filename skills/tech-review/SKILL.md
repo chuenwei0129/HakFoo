@@ -15,7 +15,7 @@ metadata:
 | 用户问”哪里会被误解” | ✅ |
 | 用户说”帮我看看有什么漏洞” | ✅ |
 | 用户说”帮我改改这篇文章” | | tech-polish（给修改方案） |
-| 用户说”结构/逻辑有问题” | | tech-strategy-diagnostic（策略层） |
+| 用户说”结构/逻辑有问题” | | tech-strategy（策略层） |
 | 用户无草稿直接问”什么是XXX” | | explain-well |
 | 用户要翻译/改写 | | 直接处理，不用 skill |
 
