@@ -21,7 +21,7 @@
     {
       "name": "c6i/tech-polish",
       "description": "帮作者把技术概念讲解草稿，打磨成逻辑清晰、读者能真正看懂的成品。",
-      "version": "0.0.3",
+      "version": "0.0.4",
       "category": "development",
       "source": "./skills/tech-polish",
       "skills": [
