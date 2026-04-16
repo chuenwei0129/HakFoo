@@ -8,22 +8,22 @@
   },
   "plugins": [
     {
-      "name": "c6i/plain",
-      "description": "Explain any complex content to a clever 12-year-old.",
+      "name": "c6i/explain-well",
+      "description": "把任何复杂内容说给聪明的12岁孩子听。不用术语，不绕弯子，不写文件。用类比、故事、画面让人真懂。",
       "version": "0.0.2",
       "category": "development",
-      "source": "./skills/plain",
+      "source": "./skills/explain-well",
       "skills": [
         "."
       ],
       "homepage": "https://github.com/chuenwei0129/HakFoo"
     },
     {
-      "name": "c6i/write",
-      "description": "Help authors refine technical drafts into clear, understandable articles.",
-      "version": "0.0.2",
+      "name": "c6i/draft-doctor",
+      "description": "帮作者把技术概念讲解草稿，打磨成逻辑清晰、读者能真正看懂的成品。",
+      "version": "0.0.3",
       "category": "development",
-      "source": "./skills/write",
+      "source": "./skills/draft-doctor",
       "skills": [
         "."
       ],
