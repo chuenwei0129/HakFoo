@@ -30,22 +30,22 @@
       "homepage": "https://github.com/chuenwei0129/HakFoo"
     },
     {
-      "name": "c6i/tech-review",
-      "description": "当用户提供技术文章草稿，要求从'读者视角'检验可理解性、严谨性和抗误解能力时使用。模拟不同层次读者（新手/有经验的/挑刺型），找出会被误解、质疑、弃读的地方。重点在'诊断'而非'治疗'——只指出问题，不给改写。触发词：'从读者角度看'、'有什么漏洞'、'会被误解吗'。",
+      "name": "c6i/tech-strategy",
+      "description": "当用户提供技术文章草稿，说出'结构别扭'、'读起来不顺'、'感觉逻辑有问题'、'策略不对'时使用。诊断讲解策略（讲解型/论证型/对比型）是否选对、执行是否走样，给出骨架调整建议而不是句子修改。触发词：'结构有问题'、'逻辑不顺'、'策略需要调整'。",
       "version": "0.0.3",
       "category": "development",
-      "source": "./skills/tech-review",
+      "source": "./skills/tech-strategy",
       "skills": [
         "."
       ],
       "homepage": "https://github.com/chuenwei0129/HakFoo"
     },
     {
-      "name": "c6i/tech-strategy",
-      "description": "当用户提供技术文章草稿，说出'结构别扭'、'读起来不顺'、'感觉逻辑有问题'、'策略不对'时使用。诊断讲解策略（讲解型/论证型/对比型）是否选对、执行是否走样，给出骨架调整建议而不是句子修改。触发词：'结构有问题'、'逻辑不顺'、'策略需要调整'。",
+      "name": "c6i/deep-dive",
+      "description": "针对编程/计算机科学概念的深度解剖。从谱系、张力、痕迹、词源、模型、设计、质感、盲区八个维度切开概念，生成 md 笔记。触发词：'深挖一下'、'底层原理'、'深扒'、'彻底搞懂'。",
       "version": "0.0.3",
       "category": "development",
-      "source": "./skills/tech-strategy",
+      "source": "./skills/deep-dive",
       "skills": [
         "."
       ],
