@@ -21,7 +21,7 @@
     {
       "name": "c6i/tech-polish",
       "description": "当用户提供技术文章草稿（源码解析、原理科普、算法讲解），要求'改文章'、'润色'、'看看这段怎么写'时使用。重点定位读者会卡壳、跳步、弃读的具体问题，给出修改方向和对照示例。触发词：'帮我改改'、'润色一下'、'看看草稿'。",
-      "version": "0.0.5",
+      "version": "0.0.6",
       "category": "development",
       "source": "./skills/tech-polish",
       "skills": [
@@ -46,6 +46,17 @@
       "version": "0.0.3",
       "category": "development",
       "source": "./skills/deep-dive",
+      "skills": [
+        "."
+      ],
+      "homepage": "https://github.com/chuenwei0129/HakFoo"
+    },
+    {
+      "name": "c6i/blog-roundtable",
+      "description": "针对技术博客文章的结构化圆桌讨论，邀请多领域专家进行批判性技术审视。触发词：'圆桌讨论'、'批判分析'、'专家评审'。",
+      "version": "0.0.4",
+      "category": "development",
+      "source": "./skills/blog-roundtable",
       "skills": [
         "."
       ],
