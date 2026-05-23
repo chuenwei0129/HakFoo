@@ -61,6 +61,28 @@
         "."
       ],
       "homepage": "https://github.com/chuenwei0129/HakFoo"
+    },
+    {
+      "name": "c6i/note-rewrite",
+      "description": "技术笔记重写引擎。从旧笔记里揪出一个点，一层层剖到原理层，原地改写。像手术刀，不是铲子。触发词：'改改旧笔记'、'重写这段笔记'、'这条笔记过时了'。",
+      "version": "0.0.1",
+      "category": "development",
+      "source": "./skills/note-rewrite",
+      "skills": [
+        "."
+      ],
+      "homepage": "https://github.com/chuenwei0129/HakFoo"
+    },
+    {
+      "name": "c6i/review",
+      "description": "通过追问检验你是否真正掌握一个技术概念。不是出选择题，是逼你说出机制——在你卡住的地方挖下去。对前端背景的用户，从浏览器模型切入后端概念。触发词：'考考我'、'复习一下'、'帮我查漏'、'我真的懂了吗'。",
+      "version": "0.0.1",
+      "category": "development",
+      "source": "./skills/review",
+      "skills": [
+        "."
+      ],
+      "homepage": "https://github.com/chuenwei0129/HakFoo"
     }
   ]
 }
