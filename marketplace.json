@@ -1,84 +1,73 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "HakFoo",
-  "description": "Personal skill collection for Claude Code.",
+  "description": "Personal frontend cognitive skill system for Claude Code.",
   "owner": {
     "name": "chuenwei0129",
     "email": "chuenwei0129@gmail.com"
   },
   "plugins": [
     {
-      "name": "c6i/explain-well",
-      "description": "用户要求把复杂技术概念翻译成'人话'、'大白话'时使用。用类比、故事、画面让聪明的12岁孩子也能听懂。区别于改文章——这是从零开始解释，不是润色已有草稿。触发词：'解释一下'、'用大白话说'、'什么是XXX'。",
-      "version": "0.0.3",
+      "name": "c6i/fe-note",
+      "description": "重写旧前端笔记的主力 skill。只要用户拿来旧笔记、旧结论、过时总结、踩坑记录，或说“帮我重写这条笔记”，就优先使用它。产出结构化重写结果，补齐问题、约束、机制、边界和误解修正。",
+      "version": "0.1.0",
       "category": "development",
-      "source": "./skills/explain-well",
+      "source": "./skills/fe-note",
       "skills": [
         "."
       ],
       "homepage": "https://github.com/chuenwei0129/HakFoo"
     },
     {
-      "name": "c6i/tech-polish",
-      "description": "当用户提供技术文章草稿（源码解析、原理科普、算法讲解），要求'改文章'、'润色'、'看看这段怎么写'时使用。重点定位读者会卡壳、跳步、弃读的具体问题，给出修改方向和对照示例。触发词：'帮我改改'、'润色一下'、'看看草稿'。",
-      "version": "0.0.6",
+      "name": "c6i/fe-learn",
+      "description": "前端概念深挖 skill。用户一旦说“彻底搞懂”“深挖”“底层原理”“为什么会这样”，并且问题核心是浏览器机制、框架行为或设计取舍，而不是 API 用法，就应该用它。产出七向解剖、权衡和最小心智模型。",
+      "version": "0.1.0",
       "category": "development",
-      "source": "./skills/tech-polish",
+      "source": "./skills/fe-learn",
       "skills": [
         "."
       ],
       "homepage": "https://github.com/chuenwei0129/HakFoo"
     },
     {
-      "name": "c6i/tech-strategy",
-      "description": "当用户提供技术文章草稿，说出'结构别扭'、'读起来不顺'、'感觉逻辑有问题'、'策略不对'时使用。诊断讲解策略（讲解型/论证型/对比型）是否选对、执行是否走样，给出骨架调整建议而不是句子修改。触发词：'结构有问题'、'逻辑不顺'、'策略需要调整'。",
-      "version": "0.0.4",
+      "name": "c6i/fe-plain",
+      "description": "前端白话解释器。只要用户说“用大白话讲”“讲成人话”“我知道这个词但一直没真懂”，就用它。产出可映射的类比、精确边界和一句能复述的真相。",
+      "version": "0.1.0",
       "category": "development",
-      "source": "./skills/tech-strategy",
+      "source": "./skills/fe-plain",
       "skills": [
         "."
       ],
       "homepage": "https://github.com/chuenwei0129/HakFoo"
     },
     {
-      "name": "c6i/deep-dive",
-      "description": "针对编程/计算机科学概念的深度解剖。从谱系、张力、痕迹、词源、模型、设计、质感、盲区八个维度切开概念，生成 md 笔记。触发词：'深挖一下'、'底层原理'、'深扒'、'彻底搞懂'。",
-      "version": "0.0.3",
+      "name": "c6i/fe-book",
+      "description": "前端技术拆书 skill。适用于 JavaScript、浏览器、工程化、框架相关技术书。用户想先抓骨架、问题和框架，而不是边读边散时，应优先使用它。产出五件事和最小实践路径。",
+      "version": "0.1.0",
       "category": "development",
-      "source": "./skills/deep-dive",
+      "source": "./skills/fe-book",
       "skills": [
         "."
       ],
       "homepage": "https://github.com/chuenwei0129/HakFoo"
     },
     {
-      "name": "c6i/blog-roundtable",
-      "description": "针对技术博客文章的结构化圆桌讨论，邀请多领域专家进行批判性技术审视。触发词：'圆桌讨论'、'批判分析'、'专家评审'。",
-      "version": "0.0.4",
+      "name": "c6i/fe-read",
+      "description": "前端阅读伴侣 skill。用户要读技术博客、源码、RFC、文档或书籍片段，并希望有人帮他划结构、指热点、问关键问题、解释设计动机时，就应该使用它。产出阅读地图、关键问题和下一步阅读路径。",
+      "version": "0.1.0",
       "category": "development",
-      "source": "./skills/blog-roundtable",
+      "source": "./skills/fe-read",
       "skills": [
         "."
       ],
       "homepage": "https://github.com/chuenwei0129/HakFoo"
     },
     {
-      "name": "c6i/note-rewrite",
-      "description": "技术笔记重写引擎。从旧笔记里揪出一个点，一层层剖到原理层，原地改写。像手术刀，不是铲子。触发词：'改改旧笔记'、'重写这段笔记'、'这条笔记过时了'。",
-      "version": "0.0.1",
+      "name": "c6i/fe-code",
+      "description": "前端最小实践引擎。只要用户已经有一个知识点、判断或机制猜想，想把它落到一个可运行、可观察、可验证的最小实验，就使用它。产出实验目标、最小代码、观察点和结论回流。",
+      "version": "0.1.0",
       "category": "development",
-      "source": "./skills/note-rewrite",
-      "skills": [
-        "."
-      ],
-      "homepage": "https://github.com/chuenwei0129/HakFoo"
-    },
-    {
-      "name": "c6i/review",
-      "description": "通过追问检验你是否真正掌握一个技术概念。不是出选择题，是逼你说出机制——在你卡住的地方挖下去。对前端背景的用户，从浏览器模型切入后端概念。触发词：'考考我'、'复习一下'、'帮我查漏'、'我真的懂了吗'。",
-      "version": "0.0.1",
-      "category": "development",
-      "source": "./skills/review",
+      "source": "./skills/fe-code",
       "skills": [
         "."
       ],
