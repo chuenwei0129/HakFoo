@@ -8,66 +8,11 @@
   },
   "plugins": [
     {
-      "name": "c6i/fe-note",
+      "name": "c6i/fe-rewrite",
       "description": "重写旧前端笔记的主力 skill。只要用户拿来旧笔记、旧结论、过时总结、踩坑记录，或说“帮我重写这条笔记”，就优先使用它。产出结构化重写结果，补齐问题、约束、机制、边界和误解修正。",
       "version": "0.1.0",
       "category": "development",
-      "source": "./skills/fe-note",
-      "skills": [
-        "."
-      ],
-      "homepage": "https://github.com/chuenwei0129/HakFoo"
-    },
-    {
-      "name": "c6i/fe-learn",
-      "description": "前端概念深挖 skill。用户一旦说“彻底搞懂”“深挖”“底层原理”“为什么会这样”，并且问题核心是浏览器机制、框架行为或设计取舍，而不是 API 用法，就应该用它。产出七向解剖、权衡和最小心智模型。",
-      "version": "0.1.0",
-      "category": "development",
-      "source": "./skills/fe-learn",
-      "skills": [
-        "."
-      ],
-      "homepage": "https://github.com/chuenwei0129/HakFoo"
-    },
-    {
-      "name": "c6i/fe-plain",
-      "description": "前端白话解释器。只要用户说“用大白话讲”“讲成人话”“我知道这个词但一直没真懂”，就用它。产出可映射的类比、精确边界和一句能复述的真相。",
-      "version": "0.1.0",
-      "category": "development",
-      "source": "./skills/fe-plain",
-      "skills": [
-        "."
-      ],
-      "homepage": "https://github.com/chuenwei0129/HakFoo"
-    },
-    {
-      "name": "c6i/fe-book",
-      "description": "前端技术拆书 skill。适用于 JavaScript、浏览器、工程化、框架相关技术书。用户想先抓骨架、问题和框架，而不是边读边散时，应优先使用它。产出五件事和最小实践路径。",
-      "version": "0.1.0",
-      "category": "development",
-      "source": "./skills/fe-book",
-      "skills": [
-        "."
-      ],
-      "homepage": "https://github.com/chuenwei0129/HakFoo"
-    },
-    {
-      "name": "c6i/fe-read",
-      "description": "前端阅读伴侣 skill。用户要读技术博客、源码、RFC、文档或书籍片段，并希望有人帮他划结构、指热点、问关键问题、解释设计动机时，就应该使用它。产出阅读地图、关键问题和下一步阅读路径。",
-      "version": "0.1.0",
-      "category": "development",
-      "source": "./skills/fe-read",
-      "skills": [
-        "."
-      ],
-      "homepage": "https://github.com/chuenwei0129/HakFoo"
-    },
-    {
-      "name": "c6i/fe-code",
-      "description": "前端最小实践引擎。只要用户已经有一个知识点、判断或机制猜想，想把它落到一个可运行、可观察、可验证的最小实验，就使用它。产出实验目标、最小代码、观察点和结论回流。",
-      "version": "0.1.0",
-      "category": "development",
-      "source": "./skills/fe-code",
+      "source": "./skills/fe-rewrite",
       "skills": [
         "."
       ],
